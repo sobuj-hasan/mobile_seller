@@ -637,6 +637,7 @@ header .custom-form{
 }
 .search-food h5 {
     line-height: 16px;
+    color: var(--sc3);
 }
 .search-food h6 {
     line-height: 16px;
@@ -644,6 +645,9 @@ header .custom-form{
 }
 .search-food p{
     line-height: 18px;
+}
+.search-food .star i{
+    color: #FCC400;
 }
 
 .search-btn button{
