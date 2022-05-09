@@ -49,7 +49,6 @@ h5{
     font-size: 18px;
     color: var(--lbc);
 }
-
 p {
     line-height: 24px;
 }
@@ -91,11 +90,36 @@ button {
     padding: 10px 20px;
     transition: 0.3s;
 }
-
 .custom-btn:hover {
     background: #400e5e;
     color: var(--wc);
 }
+
+.load-more a{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--wc);
+    background: var(--bgc);
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+.load-more a:hover{
+    background: var(--sc);
+}
+
+.add-cart-btn{
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid var(--lbc);
+    padding: 10px 20px;
+    background: none;
+    transition: 0.4s;
+}
+.add-cart-btn:hover{
+    background: var(--bgc);
+    color: var(--wc);
+}
+
 .custom-btn.white-custom{
     background: var(--wc);
     border: 1px solid var(--sc);
